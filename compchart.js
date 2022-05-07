@@ -15,4 +15,5 @@ async function  loadIntoTable(url, table) {
     tableHead.querySelector("tr").appendChild(headerElement);
   }
 }
-loadIntoTable("https://sjattwood.com/projects/compchart/compchart-data.json", document.querySelector("table"));
+//loadIntoTable("https://sjattwood.com/projects/compchart/compchart-data.json", document.querySelector("table"));
+loadIntoTable("https://sjattwood.github.io/compchart-repo/compchart-data.json", document.querySelector("table"));
