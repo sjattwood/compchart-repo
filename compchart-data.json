@@ -1,0 +1,41 @@
+{
+  "headers": [
+    "XP5-A",
+    "XP5-X",
+    "XP-7"
+  ],
+  "features": [
+  [
+    "Android compatible",
+    "iOS compatible",
+    "clip",
+    "mappable buttons",
+    "table stand",
+    "gamepass"
+  ],
+  [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ]
+  ]
+}
