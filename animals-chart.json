@@ -1,0 +1,12 @@
+{
+   "feature":["fish","octopus","whale","human","snake","lobster"],
+   "2 legs":["no","no","vestigial","yes","no","yes"],
+   "4 legs":["no","no","no","no","no","yes"],
+   "exoskeleton":["no","no","no","no","no","yes"],
+   "shell":["no","no","no","no","no","yes"],
+   "hair":["no","no","yes","yes","no","no"],
+   "tentacles":["no","yes","no","no","no","no"],
+   "lives in water":["yes","yes","yes","no","some","no"],
+   "lives on land":["for a brief time","for 40 mins","no","yes","yes","yes"],
+   "endoskeleton":["most","no","yes","yes","yes","no"]
+}
