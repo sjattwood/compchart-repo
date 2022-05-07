@@ -14,6 +14,19 @@ async function  loadIntoTable(url, table) {
     headerElement.textContent = headerText;
     tableHead.querySelector("tr").appendChild(headerElement);
   }
+
+  //populate the features
+  for (const feature of features) {
+    const featureElement = document.createElement("tr");
+
+    for (const cellText of feature) {
+      const cellElement = document.createElement("td");
+      cellElement.textContent = cellText;
+      featureElement.appendChild(cellElement);
+    }
+
+    tableBody.appendChild(featureElement);
+  }
 }
 //loadIntoTable("https://sjattwood.com/projects/compchart/compchart-data.json", document.querySelector("table"));
 loadIntoTable("https://sjattwood.github.io/compchart-repo/compchart-data.json", document.querySelector("table"));
