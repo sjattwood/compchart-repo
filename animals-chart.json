@@ -1,5 +1,5 @@
 {
-   "feature":["fish","octopus","whale","human","snake","lobster"],
+   "features":["fish","octopus","whale","human","snake","lobster"],
    "2 legs":["no","no","vestigial","yes","no","yes"],
    "4 legs":["no","no","no","no","no","yes"],
    "exoskeleton":["no","no","no","no","no","yes"],
