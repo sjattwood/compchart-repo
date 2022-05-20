@@ -29,4 +29,5 @@ async function  loadIntoTable(url, table) {
   }
 }
 //loadIntoTable("https://sjattwood.com/projects/compchart/compchart-data.json", document.querySelector("table"));
-loadIntoTable("https://sjattwood.github.io/compchart-repo/compchart-data.json", document.querySelector("table"));
+// loadIntoTable("https://sjattwood.github.io/compchart-repo/compchart-data.json", document.querySelector("table"));
+loadIntoTable("https://sjattwood.github.io/compchart-repo/animals-chart2.json", document.querySelector("table"));

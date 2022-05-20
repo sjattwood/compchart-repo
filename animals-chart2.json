@@ -1,0 +1,11 @@
+{
+  "headers": ["FIELD1", "2 legs", "4 legs", "exoskeleton", "shell", "hair", "tentacles", "lives in water", "lives on land", "endoskeleton"],
+  "features": [
+  ["fish","no","no","no","no","no","no","yes","for a brief time","most"  ],
+  ["human","yes","no","no","no","yes","no","no","yes","yes"  ],
+  ["lobster","yes","yes","yes","yes","no","no","no","yes","no"  ],
+  ["octopus","no","no","no","no","no","yes","yes","for 40 mins","no"  ],
+  ["snake","no","no","no","no","no","no","some","yes","yes"  ],
+  ["whale","vestigial","no","no","no","yes","no","yes","no","yes"  ]
+]
+}
