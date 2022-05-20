@@ -17,19 +17,41 @@
       thead th {
         padding: 1em;
       }
+      @media (max-width: 768px) {
+        /* for small screen sizes under 600px */
+        .scrollcontainer {
+          width: 90%;
+          height: auto;
+          scroll-behavior: smooth;
+          position: relative;
+        }
+      }
+      .bar-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 100%;
+        background-color: rgba(255, 0, 0, 0.5);
+        content: "";
+      }
     </style>
   </head>
   <body>
     <section class="compchart">
-      <table>
-        <thead>
+      <div class="scrollcontainer">
+        <table>
+          <thead>
 
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+        <div class="bar-left">
+        </div>
     </section>
+    </div>
     <section>
       <label for="blah">Choose a blah:</label>
       <select class="blah" name="blorbia">
