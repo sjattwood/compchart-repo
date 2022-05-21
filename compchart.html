@@ -55,15 +55,17 @@
       .chartcontainer {
         position: relative;
         /* max-width: 90vw; */
-        overflow: scroll;
-        margin: 0 auto;
+        overflow: auto;
+        position: relative;
+        white-space: nowrap;
       }
       @media only screen and (max-device-width: 768px) {
         /* for small screen sizes under 600px */
         .chartcontainer {
-          width: 90%;
+          max-width: 90%;
           height: auto;
-          overflow: scroll;
+          white-space: nowrap;
+          overflow: auto;
           scroll-behavior: smooth;
           position: relative;
         }
@@ -95,17 +97,7 @@
       </div>
     </section>
 
-    <section>
-      <label for="blah">Choose a blah:</label>
-      <select class="blah" name="blorbia">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-
-
-      </select>
-    </section>
+  <h2>1</h2>
     <script src="./compchart.js" charset="utf-8"></script>
   </body>
 </html>
