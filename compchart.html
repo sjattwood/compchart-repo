@@ -8,7 +8,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
       }
       table {
         font-family: sans-serif;
@@ -16,6 +15,7 @@
       thead th {
         padding: 1em;
         background-color: #2febdf;
+        min-width: 10ch;
       }
       tbody {
         text-align: center;
@@ -38,8 +38,8 @@
         max-width: 100px;
         min-width: 100px;
         left: 0;
-        color: #ddd;
-        border-right: 1px solid #fff;
+        background-color: #ddd;
+        border-right: 2px solid #fff;
       }
       th:first-child {
         position: -webkit-sticky;
@@ -49,12 +49,12 @@
         max-width: 100px;
         min-width: 100px;
         left: 0;
-        color: #ddd;
-        border-right: 1px solid #fff;
+        background-color: #ddd;
+        border-right: 2px solid #fff;
       }
       .chartcontainer {
         position: relative;
-        max-width: 600px;
+        max-width: 90vw;
         overflow: scroll;
         margin: 0 auto;
       }
