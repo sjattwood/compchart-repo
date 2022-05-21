@@ -11,6 +11,8 @@
       }
       table {
         font-family: sans-serif;
+        width: 750px;
+        height: auto;
       }
       thead th {
         padding: 1em;
@@ -58,6 +60,14 @@
         overflow: auto;
         position: relative;
         white-space: nowrap;
+        scroll-behavior: smooth;
+      }
+      @media only screen and (min-device-width: 768px) {
+        table {
+          font-family: sans-serif;
+          width: auto;
+          height: auto;
+        }
       }
       @media only screen and (max-device-width: 768px) {
         /* for small screen sizes under 600px */
@@ -66,8 +76,8 @@
           height: auto;
           white-space: nowrap;
           overflow: auto;
-          scroll-behavior: smooth;
           position: relative;
+          scroll-behavior: smooth;
         }
         .bar-left {
           position: absolute;
