@@ -30,10 +30,13 @@
       tr:nth-child(even){
         background-color: #eee;
       }
-      tr:first-child {
+      td:first-child {
         position: -webkit-sticky;
         position: sticky;
         background-color: red;
+        width: 100px;
+        max-width: 100px;
+        min-width: 100px;
       }
       .chartcontainer {
         position: relative;
@@ -72,8 +75,8 @@
 
           </tbody>
         </table>
-        <div class="bar-left">
-        </div>
+        <!-- <div class="bar-left">
+        </div> -->
       </div>
     </section>
 
