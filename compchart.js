@@ -17,12 +17,14 @@ async function  loadIntoTable(url, table) {
   }
 
   //populate the features
+  let row = 1;
   for (const feature of features) {
     const featureElement = document.createElement("tr");
+    featureElement.classList.add("row-" + row );
     let col = 1;
     for (const cellText of feature) {
       const cellElement = document.createElement("td");
-      cellElement.classList.add("col" + i);
+      cellElement.classList.add("col-" + col);
       col++;
       cellElement.textContent = cellText;
       featureElement.appendChild(cellElement);
