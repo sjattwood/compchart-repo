@@ -11,7 +11,7 @@ async function  loadIntoTable(url, table) {
   //populate the headers
   for (const headerText of headers) {
     const headerElement = document.createElement("th");
-    headerElement.classList.add("im-a-header");
+    headerElement.classList.add("prodname");
     headerElement.textContent = headerText;
     tableHead.querySelector("tr").appendChild(headerElement);
   }
@@ -22,6 +22,7 @@ async function  loadIntoTable(url, table) {
 
     for (const cellText of feature) {
       const cellElement = document.createElement("td");
+      cellElement.classList.add(toString(cellText);
       cellElement.textContent = cellText;
       featureElement.appendChild(cellElement);
     }
