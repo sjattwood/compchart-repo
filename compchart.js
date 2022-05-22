@@ -25,7 +25,7 @@ async function  loadIntoTable(url, table) {
     let col = 1;
     for (const cellText of feature) {
       const cellElement = document.createElement("td");
-      cellElement.classList.add("col-" + col);
+      cellElement.classList.add("col-" + col, "row-" + row);
       col++;
       cellElement.textContent = cellText;
       featureElement.appendChild(cellElement);
