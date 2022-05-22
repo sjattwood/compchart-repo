@@ -19,10 +19,11 @@ async function  loadIntoTable(url, table) {
   //populate the features
   for (const feature of features) {
     const featureElement = document.createElement("tr");
-
+    let i = 1;
     for (const cellText of feature) {
       const cellElement = document.createElement("td");
-      cellElement.classList.add(toString(cellText));
+      cellElement.classList.add("row" + i);
+      i++;
       cellElement.textContent = cellText;
       featureElement.appendChild(cellElement);
     }
