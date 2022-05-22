@@ -11,6 +11,7 @@ async function  loadIntoTable(url, table) {
   //populate the headers
   for (const headerText of headers) {
     const headerElement = document.createElement("th");
+    headerElement.classList.add("im-a-header");
     headerElement.textContent = headerText;
     tableHead.querySelector("tr").appendChild(headerElement);
   }
