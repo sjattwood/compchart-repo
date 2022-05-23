@@ -11,10 +11,38 @@
       }
       table {
         font-family: sans-serif;
-        width: 750px;
+        /* width: 750px;
         height: auto;
-        font-size: 1rem;
+        font-size: 1rem; */
       }
+      #compchart-all {
+        display: block;
+        max-width: min-content;
+        vertical-align: top;
+        max-width: 100%;
+        overflow-x: auto;
+        border-collapse: collapse;
+        border-spacing: 2px;
+        // optional - enable iOS momentum scrolling
+        -webkit-overflow-scrolling: touch;
+        background: radial-gradient(left, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 0 center,
+            radial-gradient(right, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 100% center;
+        background-size: 10px 100%, 10px 100%;
+        background-attachment: scroll, scroll;
+        background-repeat: no-repeat;
+      }
+      #compchart-all td:first-child {
+        background-image: linear-gradient(to right, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
+        background-repeat: no-repeat;
+        background-size: 20px 100%;
+      }
+      #compchart-all td:last-child {
+        background-image: linear-gradient(to left, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+        background-size: 20px 100%;
+      }
+
       thead th {
         padding: 1em;
         background-color: #2febdf;
